@@ -17,28 +17,162 @@ def parse_periods(period_string):
 
 
 caves = [
-    {"name": "Nahal Me'arot", "lat": 32.670, "lon": 35.010, "period": "Lower Paleolithic (500,000 BP), Middle Paleolithic (250,000-45,000 BP), Natufian culture (15,000 - 11,500 BP)"},
-    {"name": "Tabun Cave", "lat": 32.667, "lon": 35.017, "period": "Lower Paleolithic (500,000 BP), Middle Paleolithic (250,000-45,000 BP)"},
-    {"name": "Skhul Cave", "lat": 32.669, "lon": 35.013, "period": "Middle Paleolithic (250,000-45,000 BP)"},
-    {"name": "El-Wad Cave", "lat": 32.672, "lon": 35.015, "period": "Middle Paleolithic (250,000-45,000 BP), Natufian culture (15,000 - 11,500 BP)"},
-    {"name": "Misliya Cave", "lat": 32.666, "lon": 35.017, "period": "Lower Paleolithic (250,000-160,000 BP)"},
-    {"name": "Qafzeh Cave", "lat": 32.694, "lon": 35.362, "period": "Middle Paleolithic (100,000-90,000 BP)"},
-    {"name": "Kebara Cave", "lat": 32.596, "lon": 34.959, "period": "Middle Paleolithic (250,000-45,000 BP), Natufian culture (15,000 - 11,500 BP)"},
-    {"name": "Manot Cave", "lat": 32.987, "lon": 35.268, "period": "Upper Paleolithic (40,000 BP)"},
-    {"name": "Amud Cave", "lat": 32.952, "lon": 35.511, "period": "Middle Paleolithic (250,000-45,000 BP)"},
-    {"name": "Zuttiyeh Cave", "lat": 33.016, "lon": 35.573, "period": "Middle Paleolithic (150,000 BP)"},
-    {"name": "Hayonim Cave", "lat": 33.023, "lon": 35.389, "period": "Middle Paleolithic (250,000-45,000 BP), Natufian culture (15,000 - 11,500 BP)"},
-    {"name": "Hilazon Tachtit Cave", "lat": 32.919, "lon": 35.281, "period": "Natufian culture (15,000 - 11,500 BP)"},
-    {"name": "Raqefet Cave", "lat": 32.700, "lon": 35.050, "period": "Natufian culture (15,000 - 11,500 BP)"},
-    {"name": "Sefunim Cave", "lat": 32.728, "lon": 34.966, "period": "Upper Paleolithic (40,000 BP)"},
-    {"name": "Meged Cave", "lat": 32.625, "lon": 35.066, "period": "Upper Paleolithic (30,000 BP)"},
-    {"name": "Jamila Cave", "lat": 32.724, "lon": 35.062, "period": "Upper Paleolithic (25,000 BP)"},
-    {"name": "Hefzibah Cave", "lat": 32.610, "lon": 35.094, "period": "Middle Paleolithic (250,000-45,000 BP)"},
-    {"name": "Carmel Cave", "lat": 32.718, "lon": 34.967, "period": "Upper Paleolithic (30,000 BP)"},
-    {"name": "Malham Cave", "lat": 32.715, "lon": 35.007, "period": "Middle Paleolithic (250,000-45,000 BP)"},
-    {"name": "Es Skhul Cave", "lat": 32.670, "lon": 35.012, "period": "Middle Paleolithic (250,000-45,000 BP)"},
-    {"name": "Geula Cave", "lat": 32.794, "lon": 34.989, "period": "Middle Paleolithic (250,000-45,000 BP)"}
+    {
+        "name": "Nahal Me'arot",
+        "lat": 32.670,
+        "lon": 35.010,
+        "period": "Lower Paleolithic (500,000 BP), Middle Paleolithic (250,000-45,000 BP), Natufian culture (15,000 - 11,500 BP)",
+        "wiki_url": "https://en.wikipedia.org/wiki/Nahal_Me%27arot"
+    },
+    {
+        "name": "Tabun Cave",
+        "lat": 32.667,
+        "lon": 35.017,
+        "period": "Lower Paleolithic (500,000 BP), Middle Paleolithic (250,000-45,000 BP)",
+         "wiki_url": "https://en.wikipedia.org/wiki/Tabun_Cave"
+    },
+    {
+        "name": "Skhul Cave",
+        "lat": 32.669,
+        "lon": 35.013,
+        "period": "Middle Paleolithic (250,000-45,000 BP)",
+        "wiki_url": "https://en.wikipedia.org/wiki/Skhul_and_Qafzeh_hominins"
+    },
+    {
+        "name": "El-Wad Cave",
+        "lat": 32.672,
+        "lon": 35.015,
+        "period": "Middle Paleolithic (250,000-45,000 BP), Natufian culture (15,000 - 11,500 BP)",
+        "wiki_url":"https://en.wikipedia.org/wiki/Nahal_Me%27arot#El_Wad_Cave"
+    },
+    {
+        "name": "Misliya Cave",
+        "lat": 32.666,
+        "lon": 35.017,
+        "period": "Lower Paleolithic (250,000-160,000 BP)",
+         "wiki_url": "https://en.wikipedia.org/wiki/Misliya_cave"
+    },
+    {
+        "name": "Qafzeh Cave",
+        "lat": 32.694,
+        "lon": 35.362,
+        "period": "Middle Paleolithic (100,000-90,000 BP)",
+        "wiki_url": "https://en.wikipedia.org/wiki/Skhul_and_Qafzeh_hominins"
+    },
+   {
+        "name": "Kebara Cave",
+        "lat": 32.596,
+        "lon": 34.959,
+        "period": "Middle Paleolithic (250,000-45,000 BP), Natufian culture (15,000 - 11,500 BP)",
+        "wiki_url": "https://en.wikipedia.org/wiki/Kebara_Cave"
+    },
+    {
+        "name": "Manot Cave",
+        "lat": 32.987,
+        "lon": 35.268,
+        "period": "Upper Paleolithic (40,000 BP)",
+        "wiki_url": "https://en.wikipedia.org/wiki/Manot_Cave"
+    },
+    {
+        "name": "Amud Cave",
+        "lat": 32.952,
+        "lon": 35.511,
+        "period": "Middle Paleolithic (250,000-45,000 BP)",
+        "wiki_url": "https://en.wikipedia.org/wiki/Amud_Cave"
+    },
+    {
+        "name": "Zuttiyeh Cave",
+        "lat": 33.016,
+        "lon": 35.573,
+        "period": "Middle Paleolithic (150,000 BP)",
+        "wiki_url": "https://en.wikipedia.org/wiki/Zuttiyeh_cave"
+    },
+   {
+        "name": "Hayonim Cave",
+        "lat": 33.023,
+        "lon": 35.389,
+        "period": "Middle Paleolithic (250,000-45,000 BP), Natufian culture (15,000 - 11,500 BP)",
+        "wiki_url": "https://en.wikipedia.org/wiki/Hayonim_Cave"
+    },
+    {
+        "name": "Hilazon Tachtit Cave",
+        "lat": 32.919,
+        "lon": 35.281,
+        "period": "Natufian culture (15,000 - 11,500 BP)",
+         "wiki_url": "https://en.wikipedia.org/wiki/Hilazon_Tachtit"
+    },
+    {
+        "name": "Raqefet Cave",
+        "lat": 32.700,
+        "lon": 35.050,
+        "period": "Natufian culture (15,000 - 11,500 BP)",
+        "wiki_url": "https://en.wikipedia.org/wiki/Raqefet_Cave"
+    },
+    {
+        "name": "Sefunim Cave",
+        "lat": 32.728,
+        "lon": 34.966,
+        "period": "Upper Paleolithic (40,000 BP)",
+        "wiki_url": "https://en.wikipedia.org/wiki/Sefunim_Cave"
+    },
+    {
+        "name": "Meged Cave",
+        "lat": 32.625,
+        "lon": 35.066,
+        "period": "Upper Paleolithic (30,000 BP)",
+        "wiki_url": "https://en.wikipedia.org/wiki/Meged_Cave"
+     },
+    {
+        "name": "Jamila Cave",
+        "lat": 32.724,
+        "lon": 35.062,
+        "period": "Upper Paleolithic (25,000 BP)",
+        "wiki_url": "https://en.wikipedia.org/wiki/Jamila_Cave"
+    },
+    {
+        "name": "Hefzibah Cave",
+        "lat": 32.610,
+        "lon": 35.094,
+        "period": "Middle Paleolithic (250,000-45,000 BP)",
+        "wiki_url": "https://en.wikipedia.org/wiki/Hefzibah_Cave"
+    },
+   {
+        "name": "Carmel Cave",
+        "lat": 32.718,
+        "lon": 34.967,
+        "period": "Upper Paleolithic (30,000 BP)",
+        "wiki_url": "https://en.wikipedia.org/wiki/Carmel_Cave"
+    },
+    {
+        "name": "Malham Cave",
+        "lat": 32.715,
+        "lon": 35.007,
+        "period": "Middle Paleolithic (250,000-45,000 BP)",
+        "wiki_url": "https://en.wikipedia.org/wiki/Malham_Cave"
+   },
+    {
+        "name": "Es Skhul Cave",
+        "lat": 32.670,
+        "lon": 35.012,
+        "period": "Middle Paleolithic (250,000-45,000 BP)",
+        "wiki_url": "https://en.wikipedia.org/wiki/Skhul_and_Qafzeh_hominins"
+    },
+        {
+        "name": "Geula Cave",
+        "lat": 32.794,
+        "lon": 34.989,
+        "period": "Middle Paleolithic (250,000-45,000 BP)",
+            "wiki_url":"https://en.wikipedia.org/wiki/Geula_Cave"
+    }
 ]
+
+
+def get_popup_text(cave):
+    return f"""
+    {cave['name']}<br>
+    Period: {cave['period']}<br>
+    <a href="{cave['wiki_url']}" target="_blank">Information</a>
+    """
 
 # Create a map centered on Northern Israel
 map_center_lat = sum(cave['lat'] for cave in caves) / len(caves)
@@ -54,7 +188,7 @@ natufian = folium.FeatureGroup(name="Natufian culture", show=False)
 
 # Add markers for each cave
 for cave in caves:
-    popup_text = f"{cave['name']}<br>Period: {cave['period']}"
+    popup_text = get_popup_text(cave)
     marker = folium.Marker(
         location=[cave['lat'], cave['lon']],
         popup=folium.Popup(popup_text, max_width=300),
