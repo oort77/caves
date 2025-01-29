@@ -123,7 +123,7 @@ title_html = '''
         font-style: normal;
         font-weight: 500; /* Or 700 if you want bold */
         color: #2e6c97; /* #000080 */
-        font-size: 36px;
+        font-size: 40px;
         background-color: transparent;
         padding: 5px;
     ">
@@ -137,7 +137,7 @@ coords = [(cave['lat'], cave['lon']) for cave in caves]
 m.fit_bounds(coords, padding=(0.20,0.20))
 
 # Save the map
-m.save('index2.html')
+m.save('index.html')
 
 # Display the map
 m
