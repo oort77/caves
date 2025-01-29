@@ -18,11 +18,15 @@ name = "caves"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
+    { name = "branca" },
     { name = "folium" },
 ]
 
 [package.metadata]
-requires-dist = [{ name = "folium", specifier = ">=0.19.4" }]
+requires-dist = [
+    { name = "branca", specifier = ">=0.8.1" },
+    { name = "folium", specifier = ">=0.19.4" },
+]
 
 [[package]]
 name = "certifi"

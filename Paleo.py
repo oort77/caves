@@ -1,6 +1,5 @@
 import folium
-# from folium import plugins
-# import re
+from branca.element import Element
 
 
 # Function to parse periods from a cave's period string
@@ -113,12 +112,32 @@ folium.LayerControl(
     }
 ).add_to(m)
 
+title_html = '''
+    <div style="
+        @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap');
+        position: absolute;
+        top: 50px;
+        left: 100px;
+        z-index: 1000;
+        font-family: 'Cinzel';
+        font-style: normal;
+        font-weight: 500; /* Or 700 if you want bold */
+        color: #2e6c97; /* #000080 */
+        font-size: 36px;
+        background-color: transparent;
+        padding: 5px;
+    ">
+        Paleolithic caves in Northern Israel
+    </div>
+'''
+m.get_root().html.add_child(Element(title_html))
+
 # Fit map to bounds with margin
 coords = [(cave['lat'], cave['lon']) for cave in caves]
 m.fit_bounds(coords, padding=(0.20,0.20))
 
 # Save the map
-m.save('map.html')
+m.save('index2.html')
 
 # Display the map
 m
