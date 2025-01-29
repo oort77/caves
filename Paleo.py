@@ -22,7 +22,7 @@ caves = [
         "lat": 32.670,
         "lon": 35.010,
         "period": "Lower Paleolithic (500,000 BP), Middle Paleolithic (250,000-45,000 BP), Natufian culture (15,000 - 11,500 BP)",
-        "wiki_url": "https://en.wikipedia.org/wiki/Nahal_Me%27arot"
+        "wiki_url": "https://en.wikipedia.org/wiki/Nahal_Me%27arot_Nature_Reserve"
     },
     {
         "name": "Tabun Cave",
@@ -43,7 +43,7 @@ caves = [
         "lat": 32.672,
         "lon": 35.015,
         "period": "Middle Paleolithic (250,000-45,000 BP), Natufian culture (15,000 - 11,500 BP)",
-        "wiki_url":"https://en.wikipedia.org/wiki/Nahal_Me%27arot#El_Wad_Cave"
+        "wiki_url":"https://en.wikipedia.org/wiki/Nahal_Me%27arot_Nature_Reserve#El_Wad_Cave"
     },
     {
         "name": "Misliya Cave",
@@ -120,14 +120,14 @@ caves = [
         "lat": 32.625,
         "lon": 35.066,
         "period": "Upper Paleolithic (30,000 BP)",
-        "wiki_url": "https://en.wikipedia.org/wiki/Meged_Cave"
+         "wiki_url": "https://en.wikipedia.org/wiki/Meged_Cave"
      },
     {
         "name": "Jamila Cave",
         "lat": 32.724,
         "lon": 35.062,
         "period": "Upper Paleolithic (25,000 BP)",
-        "wiki_url": "https://en.wikipedia.org/wiki/Jamila_Cave"
+         "wiki_url": "https://en.wikipedia.org/wiki/Jamila_Cave"
     },
     {
         "name": "Hefzibah Cave",
@@ -141,14 +141,14 @@ caves = [
         "lat": 32.718,
         "lon": 34.967,
         "period": "Upper Paleolithic (30,000 BP)",
-        "wiki_url": "https://en.wikipedia.org/wiki/Carmel_Cave"
+       "wiki_url": "https://en.wikipedia.org/wiki/Carmel_Cave"
     },
     {
         "name": "Malham Cave",
         "lat": 32.715,
         "lon": 35.007,
         "period": "Middle Paleolithic (250,000-45,000 BP)",
-        "wiki_url": "https://en.wikipedia.org/wiki/Malham_Cave"
+         "wiki_url": "https://en.wikipedia.org/wiki/Malham_Cave"
    },
     {
         "name": "Es Skhul Cave",
@@ -162,7 +162,7 @@ caves = [
         "lat": 32.794,
         "lon": 34.989,
         "period": "Middle Paleolithic (250,000-45,000 BP)",
-            "wiki_url":"https://en.wikipedia.org/wiki/Geula_Cave"
+         "wiki_url":"https://en.wikipedia.org/wiki/Nahal_Me%27arot_Nature_Reserve#Other_caves"
     }
 ]
 
