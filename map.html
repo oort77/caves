@@ -1,0 +1,1788 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_318e3ac8ad41fc19a21d2b9a3dee2229 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_318e3ac8ad41fc19a21d2b9a3dee2229" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_318e3ac8ad41fc19a21d2b9a3dee2229 = L.map(
+                "map_318e3ac8ad41fc19a21d2b9a3dee2229",
+                {
+                    center: [32.75309523809524, 35.12514285714286],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 10,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_3b04df9d98896f93723fde87ef8cc33e = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_3b04df9d98896f93723fde87ef8cc33e.addTo(map_318e3ac8ad41fc19a21d2b9a3dee2229);
+        
+    
+            var feature_group_ecb57bf04992930dcf6b620d903299cc = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var marker_c7e0eca34f10df52afa789c8fb9fba45 = L.marker(
+                [32.67, 35.01],
+                {
+}
+            ).addTo(feature_group_ecb57bf04992930dcf6b620d903299cc);
+        
+    
+        var popup_e547bc6147eeb53059e84034f0dad9f4 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_1ae51bb31cf71658c8e8b6f825ecb593 = $(`<div id="html_1ae51bb31cf71658c8e8b6f825ecb593" style="width: 100.0%; height: 100.0%;">Nahal Me'arot<br>Period: Lower Paleolithic (500,000 BP), Middle Paleolithic (250,000-45,000 BP), Natufian culture (15,000 - 11,500 BP)</div>`)[0];
+                popup_e547bc6147eeb53059e84034f0dad9f4.setContent(html_1ae51bb31cf71658c8e8b6f825ecb593);
+            
+        
+
+        marker_c7e0eca34f10df52afa789c8fb9fba45.bindPopup(popup_e547bc6147eeb53059e84034f0dad9f4)
+        ;
+
+        
+    
+    
+            marker_c7e0eca34f10df52afa789c8fb9fba45.bindTooltip(
+                `<div>
+                     Nahal Me'arot
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_964f428895e81a5ee97f266a3b333a6a = L.marker(
+                [32.667, 35.017],
+                {
+}
+            ).addTo(feature_group_ecb57bf04992930dcf6b620d903299cc);
+        
+    
+        var popup_3eb0740a471003be1b4b77e6a7177fc1 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_61b49f27c085082266f4a38b1cb830c5 = $(`<div id="html_61b49f27c085082266f4a38b1cb830c5" style="width: 100.0%; height: 100.0%;">Tabun Cave<br>Period: Lower Paleolithic (500,000 BP), Middle Paleolithic (250,000-45,000 BP)</div>`)[0];
+                popup_3eb0740a471003be1b4b77e6a7177fc1.setContent(html_61b49f27c085082266f4a38b1cb830c5);
+            
+        
+
+        marker_964f428895e81a5ee97f266a3b333a6a.bindPopup(popup_3eb0740a471003be1b4b77e6a7177fc1)
+        ;
+
+        
+    
+    
+            marker_964f428895e81a5ee97f266a3b333a6a.bindTooltip(
+                `<div>
+                     Tabun Cave
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_40606bdd82496dce3c83d1e2f9f0ab45 = L.marker(
+                [32.669, 35.013],
+                {
+}
+            ).addTo(feature_group_ecb57bf04992930dcf6b620d903299cc);
+        
+    
+        var popup_6268fa846ea020d6299ae49bafcbca67 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_aeb20aa423c06349468e4fd66b377919 = $(`<div id="html_aeb20aa423c06349468e4fd66b377919" style="width: 100.0%; height: 100.0%;">Skhul Cave<br>Period: Middle Paleolithic (250,000-45,000 BP)</div>`)[0];
+                popup_6268fa846ea020d6299ae49bafcbca67.setContent(html_aeb20aa423c06349468e4fd66b377919);
+            
+        
+
+        marker_40606bdd82496dce3c83d1e2f9f0ab45.bindPopup(popup_6268fa846ea020d6299ae49bafcbca67)
+        ;
+
+        
+    
+    
+            marker_40606bdd82496dce3c83d1e2f9f0ab45.bindTooltip(
+                `<div>
+                     Skhul Cave
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_5de5aaabb756b5d5ea1207deca79d306 = L.marker(
+                [32.672, 35.015],
+                {
+}
+            ).addTo(feature_group_ecb57bf04992930dcf6b620d903299cc);
+        
+    
+        var popup_15bbe6cf53ed0aba517e480e3dac2e8f = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_2b0b5f9ca6c95dfa3c0ad2f93f473501 = $(`<div id="html_2b0b5f9ca6c95dfa3c0ad2f93f473501" style="width: 100.0%; height: 100.0%;">El-Wad Cave<br>Period: Middle Paleolithic (250,000-45,000 BP), Natufian culture (15,000 - 11,500 BP)</div>`)[0];
+                popup_15bbe6cf53ed0aba517e480e3dac2e8f.setContent(html_2b0b5f9ca6c95dfa3c0ad2f93f473501);
+            
+        
+
+        marker_5de5aaabb756b5d5ea1207deca79d306.bindPopup(popup_15bbe6cf53ed0aba517e480e3dac2e8f)
+        ;
+
+        
+    
+    
+            marker_5de5aaabb756b5d5ea1207deca79d306.bindTooltip(
+                `<div>
+                     El-Wad Cave
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_f5d1897253d82927987f9768c80a622a = L.marker(
+                [32.666, 35.017],
+                {
+}
+            ).addTo(feature_group_ecb57bf04992930dcf6b620d903299cc);
+        
+    
+        var popup_f20733b8e10b9fce2bf20b6fad960900 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_ef01527f36ed424b923ceb9b9b53673b = $(`<div id="html_ef01527f36ed424b923ceb9b9b53673b" style="width: 100.0%; height: 100.0%;">Misliya Cave<br>Period: Lower Paleolithic (250,000-160,000 BP)</div>`)[0];
+                popup_f20733b8e10b9fce2bf20b6fad960900.setContent(html_ef01527f36ed424b923ceb9b9b53673b);
+            
+        
+
+        marker_f5d1897253d82927987f9768c80a622a.bindPopup(popup_f20733b8e10b9fce2bf20b6fad960900)
+        ;
+
+        
+    
+    
+            marker_f5d1897253d82927987f9768c80a622a.bindTooltip(
+                `<div>
+                     Misliya Cave
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_ed95c975e4357208a629cdf74c533b00 = L.marker(
+                [32.694, 35.362],
+                {
+}
+            ).addTo(feature_group_ecb57bf04992930dcf6b620d903299cc);
+        
+    
+        var popup_b607fafe31903aa9248d4aef74d1162a = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_a860676b9795183cb22adf30797b5d4b = $(`<div id="html_a860676b9795183cb22adf30797b5d4b" style="width: 100.0%; height: 100.0%;">Qafzeh Cave<br>Period: Middle Paleolithic (100,000-90,000 BP)</div>`)[0];
+                popup_b607fafe31903aa9248d4aef74d1162a.setContent(html_a860676b9795183cb22adf30797b5d4b);
+            
+        
+
+        marker_ed95c975e4357208a629cdf74c533b00.bindPopup(popup_b607fafe31903aa9248d4aef74d1162a)
+        ;
+
+        
+    
+    
+            marker_ed95c975e4357208a629cdf74c533b00.bindTooltip(
+                `<div>
+                     Qafzeh Cave
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_df3d6e904e40f8874ba81a2b50aafbe7 = L.marker(
+                [32.596, 34.959],
+                {
+}
+            ).addTo(feature_group_ecb57bf04992930dcf6b620d903299cc);
+        
+    
+        var popup_e52c62880f343010f5ed5e5d1868edd4 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_502cbd7c67148510dd20732a192f0f54 = $(`<div id="html_502cbd7c67148510dd20732a192f0f54" style="width: 100.0%; height: 100.0%;">Kebara Cave<br>Period: Middle Paleolithic (250,000-45,000 BP), Natufian culture (15,000 - 11,500 BP)</div>`)[0];
+                popup_e52c62880f343010f5ed5e5d1868edd4.setContent(html_502cbd7c67148510dd20732a192f0f54);
+            
+        
+
+        marker_df3d6e904e40f8874ba81a2b50aafbe7.bindPopup(popup_e52c62880f343010f5ed5e5d1868edd4)
+        ;
+
+        
+    
+    
+            marker_df3d6e904e40f8874ba81a2b50aafbe7.bindTooltip(
+                `<div>
+                     Kebara Cave
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_234789b7ed960b2a5ce840eba72f60e8 = L.marker(
+                [32.987, 35.268],
+                {
+}
+            ).addTo(feature_group_ecb57bf04992930dcf6b620d903299cc);
+        
+    
+        var popup_70088d05adc41523350bb40d812bde1f = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_a550fc5045a2b7799fba3f51ca43f55a = $(`<div id="html_a550fc5045a2b7799fba3f51ca43f55a" style="width: 100.0%; height: 100.0%;">Manot Cave<br>Period: Upper Paleolithic (40,000 BP)</div>`)[0];
+                popup_70088d05adc41523350bb40d812bde1f.setContent(html_a550fc5045a2b7799fba3f51ca43f55a);
+            
+        
+
+        marker_234789b7ed960b2a5ce840eba72f60e8.bindPopup(popup_70088d05adc41523350bb40d812bde1f)
+        ;
+
+        
+    
+    
+            marker_234789b7ed960b2a5ce840eba72f60e8.bindTooltip(
+                `<div>
+                     Manot Cave
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_3bdfa92a33479042bfe766beb8f7907c = L.marker(
+                [32.952, 35.511],
+                {
+}
+            ).addTo(feature_group_ecb57bf04992930dcf6b620d903299cc);
+        
+    
+        var popup_f5e32244822825613f5dff3fd79b9b2c = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_2b328f238db6dceb17634cb2f7e296a0 = $(`<div id="html_2b328f238db6dceb17634cb2f7e296a0" style="width: 100.0%; height: 100.0%;">Amud Cave<br>Period: Middle Paleolithic (250,000-45,000 BP)</div>`)[0];
+                popup_f5e32244822825613f5dff3fd79b9b2c.setContent(html_2b328f238db6dceb17634cb2f7e296a0);
+            
+        
+
+        marker_3bdfa92a33479042bfe766beb8f7907c.bindPopup(popup_f5e32244822825613f5dff3fd79b9b2c)
+        ;
+
+        
+    
+    
+            marker_3bdfa92a33479042bfe766beb8f7907c.bindTooltip(
+                `<div>
+                     Amud Cave
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_1d5c943de2df3459a386388c6e786c9e = L.marker(
+                [33.016, 35.573],
+                {
+}
+            ).addTo(feature_group_ecb57bf04992930dcf6b620d903299cc);
+        
+    
+        var popup_dca3a79ca347c6bd7a6d54f8f6f706a1 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_4a327e20e359f72d11cf467a7c1ca250 = $(`<div id="html_4a327e20e359f72d11cf467a7c1ca250" style="width: 100.0%; height: 100.0%;">Zuttiyeh Cave<br>Period: Middle Paleolithic (150,000 BP)</div>`)[0];
+                popup_dca3a79ca347c6bd7a6d54f8f6f706a1.setContent(html_4a327e20e359f72d11cf467a7c1ca250);
+            
+        
+
+        marker_1d5c943de2df3459a386388c6e786c9e.bindPopup(popup_dca3a79ca347c6bd7a6d54f8f6f706a1)
+        ;
+
+        
+    
+    
+            marker_1d5c943de2df3459a386388c6e786c9e.bindTooltip(
+                `<div>
+                     Zuttiyeh Cave
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_d9d50911a0d9f0025370364477756b9d = L.marker(
+                [33.023, 35.389],
+                {
+}
+            ).addTo(feature_group_ecb57bf04992930dcf6b620d903299cc);
+        
+    
+        var popup_c2f021d266f92c468fd2968737023712 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_dc790ce4730f2db0967b00771a98cf7f = $(`<div id="html_dc790ce4730f2db0967b00771a98cf7f" style="width: 100.0%; height: 100.0%;">Hayonim Cave<br>Period: Middle Paleolithic (250,000-45,000 BP), Natufian culture (15,000 - 11,500 BP)</div>`)[0];
+                popup_c2f021d266f92c468fd2968737023712.setContent(html_dc790ce4730f2db0967b00771a98cf7f);
+            
+        
+
+        marker_d9d50911a0d9f0025370364477756b9d.bindPopup(popup_c2f021d266f92c468fd2968737023712)
+        ;
+
+        
+    
+    
+            marker_d9d50911a0d9f0025370364477756b9d.bindTooltip(
+                `<div>
+                     Hayonim Cave
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_7a41ef9017c96b53cc090af57929bee4 = L.marker(
+                [32.919, 35.281],
+                {
+}
+            ).addTo(feature_group_ecb57bf04992930dcf6b620d903299cc);
+        
+    
+        var popup_6d5d2abcba9b790916fc0653cb505921 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_66f53d02195119f0ef5c55d6f9d87d45 = $(`<div id="html_66f53d02195119f0ef5c55d6f9d87d45" style="width: 100.0%; height: 100.0%;">Hilazon Tachtit Cave<br>Period: Natufian culture (15,000 - 11,500 BP)</div>`)[0];
+                popup_6d5d2abcba9b790916fc0653cb505921.setContent(html_66f53d02195119f0ef5c55d6f9d87d45);
+            
+        
+
+        marker_7a41ef9017c96b53cc090af57929bee4.bindPopup(popup_6d5d2abcba9b790916fc0653cb505921)
+        ;
+
+        
+    
+    
+            marker_7a41ef9017c96b53cc090af57929bee4.bindTooltip(
+                `<div>
+                     Hilazon Tachtit Cave
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_4a82bffae10caf063de19f5126c0a354 = L.marker(
+                [32.7, 35.05],
+                {
+}
+            ).addTo(feature_group_ecb57bf04992930dcf6b620d903299cc);
+        
+    
+        var popup_f0156edd3e0e1e2166f4ea1f83654a32 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e03f2041327035676cb4dcef0a0a0960 = $(`<div id="html_e03f2041327035676cb4dcef0a0a0960" style="width: 100.0%; height: 100.0%;">Raqefet Cave<br>Period: Natufian culture (15,000 - 11,500 BP)</div>`)[0];
+                popup_f0156edd3e0e1e2166f4ea1f83654a32.setContent(html_e03f2041327035676cb4dcef0a0a0960);
+            
+        
+
+        marker_4a82bffae10caf063de19f5126c0a354.bindPopup(popup_f0156edd3e0e1e2166f4ea1f83654a32)
+        ;
+
+        
+    
+    
+            marker_4a82bffae10caf063de19f5126c0a354.bindTooltip(
+                `<div>
+                     Raqefet Cave
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_3a436f0f6e95f3251f8825c8570302e6 = L.marker(
+                [32.728, 34.966],
+                {
+}
+            ).addTo(feature_group_ecb57bf04992930dcf6b620d903299cc);
+        
+    
+        var popup_cf8f8478848c1ad2c3612ffe6e480d6e = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_85fb8679e06995a1fd6eb47b3149171f = $(`<div id="html_85fb8679e06995a1fd6eb47b3149171f" style="width: 100.0%; height: 100.0%;">Sefunim Cave<br>Period: Upper Paleolithic (40,000 BP)</div>`)[0];
+                popup_cf8f8478848c1ad2c3612ffe6e480d6e.setContent(html_85fb8679e06995a1fd6eb47b3149171f);
+            
+        
+
+        marker_3a436f0f6e95f3251f8825c8570302e6.bindPopup(popup_cf8f8478848c1ad2c3612ffe6e480d6e)
+        ;
+
+        
+    
+    
+            marker_3a436f0f6e95f3251f8825c8570302e6.bindTooltip(
+                `<div>
+                     Sefunim Cave
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_0e96fe4914f5ed8edb45f0744c0be6dd = L.marker(
+                [32.625, 35.066],
+                {
+}
+            ).addTo(feature_group_ecb57bf04992930dcf6b620d903299cc);
+        
+    
+        var popup_852e8876ef0c429d1bd8604ee26832b7 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_27901641533aa3e0a21bd9fbe993a3d8 = $(`<div id="html_27901641533aa3e0a21bd9fbe993a3d8" style="width: 100.0%; height: 100.0%;">Meged Cave<br>Period: Upper Paleolithic (30,000 BP)</div>`)[0];
+                popup_852e8876ef0c429d1bd8604ee26832b7.setContent(html_27901641533aa3e0a21bd9fbe993a3d8);
+            
+        
+
+        marker_0e96fe4914f5ed8edb45f0744c0be6dd.bindPopup(popup_852e8876ef0c429d1bd8604ee26832b7)
+        ;
+
+        
+    
+    
+            marker_0e96fe4914f5ed8edb45f0744c0be6dd.bindTooltip(
+                `<div>
+                     Meged Cave
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_5da34beacdc1118cb5d6d9256a47009e = L.marker(
+                [32.724, 35.062],
+                {
+}
+            ).addTo(feature_group_ecb57bf04992930dcf6b620d903299cc);
+        
+    
+        var popup_7bfa58f8970cfb5e54bd50e9ae03f518 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_178113275972ae60d7787b0bb65c1cad = $(`<div id="html_178113275972ae60d7787b0bb65c1cad" style="width: 100.0%; height: 100.0%;">Jamila Cave<br>Period: Upper Paleolithic (25,000 BP)</div>`)[0];
+                popup_7bfa58f8970cfb5e54bd50e9ae03f518.setContent(html_178113275972ae60d7787b0bb65c1cad);
+            
+        
+
+        marker_5da34beacdc1118cb5d6d9256a47009e.bindPopup(popup_7bfa58f8970cfb5e54bd50e9ae03f518)
+        ;
+
+        
+    
+    
+            marker_5da34beacdc1118cb5d6d9256a47009e.bindTooltip(
+                `<div>
+                     Jamila Cave
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_c786acda1fbd0347b8433c7ef6341b9d = L.marker(
+                [32.61, 35.094],
+                {
+}
+            ).addTo(feature_group_ecb57bf04992930dcf6b620d903299cc);
+        
+    
+        var popup_ea40d4d8003427a929bd99f6504473f4 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_bba74a4dc8d4fcb0dc52a17c4833344f = $(`<div id="html_bba74a4dc8d4fcb0dc52a17c4833344f" style="width: 100.0%; height: 100.0%;">Hefzibah Cave<br>Period: Middle Paleolithic (250,000-45,000 BP)</div>`)[0];
+                popup_ea40d4d8003427a929bd99f6504473f4.setContent(html_bba74a4dc8d4fcb0dc52a17c4833344f);
+            
+        
+
+        marker_c786acda1fbd0347b8433c7ef6341b9d.bindPopup(popup_ea40d4d8003427a929bd99f6504473f4)
+        ;
+
+        
+    
+    
+            marker_c786acda1fbd0347b8433c7ef6341b9d.bindTooltip(
+                `<div>
+                     Hefzibah Cave
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_6e717a7c7fcb55fa951e5bf721dfed41 = L.marker(
+                [32.718, 34.967],
+                {
+}
+            ).addTo(feature_group_ecb57bf04992930dcf6b620d903299cc);
+        
+    
+        var popup_3284de2ad919072cf39f275827577d8d = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_026ce0c53de8b7b4132040ccb0c31913 = $(`<div id="html_026ce0c53de8b7b4132040ccb0c31913" style="width: 100.0%; height: 100.0%;">Carmel Cave<br>Period: Upper Paleolithic (30,000 BP)</div>`)[0];
+                popup_3284de2ad919072cf39f275827577d8d.setContent(html_026ce0c53de8b7b4132040ccb0c31913);
+            
+        
+
+        marker_6e717a7c7fcb55fa951e5bf721dfed41.bindPopup(popup_3284de2ad919072cf39f275827577d8d)
+        ;
+
+        
+    
+    
+            marker_6e717a7c7fcb55fa951e5bf721dfed41.bindTooltip(
+                `<div>
+                     Carmel Cave
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_8c5a35dd2748dba8cd9e6fb385542fc1 = L.marker(
+                [32.715, 35.007],
+                {
+}
+            ).addTo(feature_group_ecb57bf04992930dcf6b620d903299cc);
+        
+    
+        var popup_ed111a880832b6945e4e77166b4993f8 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c7c1b056b32b959d807e9233a1d22c8d = $(`<div id="html_c7c1b056b32b959d807e9233a1d22c8d" style="width: 100.0%; height: 100.0%;">Malham Cave<br>Period: Middle Paleolithic (250,000-45,000 BP)</div>`)[0];
+                popup_ed111a880832b6945e4e77166b4993f8.setContent(html_c7c1b056b32b959d807e9233a1d22c8d);
+            
+        
+
+        marker_8c5a35dd2748dba8cd9e6fb385542fc1.bindPopup(popup_ed111a880832b6945e4e77166b4993f8)
+        ;
+
+        
+    
+    
+            marker_8c5a35dd2748dba8cd9e6fb385542fc1.bindTooltip(
+                `<div>
+                     Malham Cave
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_96016fe57f13fe4995ceaf0e7e7109ba = L.marker(
+                [32.67, 35.012],
+                {
+}
+            ).addTo(feature_group_ecb57bf04992930dcf6b620d903299cc);
+        
+    
+        var popup_a9127601851c6926f0e2e4e912c6d952 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_dadb2de4ddfb2dec590e0204e8b4f8fb = $(`<div id="html_dadb2de4ddfb2dec590e0204e8b4f8fb" style="width: 100.0%; height: 100.0%;">Es Skhul Cave<br>Period: Middle Paleolithic (250,000-45,000 BP)</div>`)[0];
+                popup_a9127601851c6926f0e2e4e912c6d952.setContent(html_dadb2de4ddfb2dec590e0204e8b4f8fb);
+            
+        
+
+        marker_96016fe57f13fe4995ceaf0e7e7109ba.bindPopup(popup_a9127601851c6926f0e2e4e912c6d952)
+        ;
+
+        
+    
+    
+            marker_96016fe57f13fe4995ceaf0e7e7109ba.bindTooltip(
+                `<div>
+                     Es Skhul Cave
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_a9f794dd91ef166a1a8f4f6018c0f19d = L.marker(
+                [32.794, 34.989],
+                {
+}
+            ).addTo(feature_group_ecb57bf04992930dcf6b620d903299cc);
+        
+    
+        var popup_fc0034474a344429e2f854e5ed4f7505 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_2a4085807098c9510dbcb33a1369516f = $(`<div id="html_2a4085807098c9510dbcb33a1369516f" style="width: 100.0%; height: 100.0%;">Geula Cave<br>Period: Middle Paleolithic (250,000-45,000 BP)</div>`)[0];
+                popup_fc0034474a344429e2f854e5ed4f7505.setContent(html_2a4085807098c9510dbcb33a1369516f);
+            
+        
+
+        marker_a9f794dd91ef166a1a8f4f6018c0f19d.bindPopup(popup_fc0034474a344429e2f854e5ed4f7505)
+        ;
+
+        
+    
+    
+            marker_a9f794dd91ef166a1a8f4f6018c0f19d.bindTooltip(
+                `<div>
+                     Geula Cave
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            feature_group_ecb57bf04992930dcf6b620d903299cc.addTo(map_318e3ac8ad41fc19a21d2b9a3dee2229);
+        
+    
+            var feature_group_ba003aa74c6d30eafd416dd0e8a741cb = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var marker_d12c0daf5fc702d270252e4dd7ee0df5 = L.marker(
+                [32.67, 35.01],
+                {
+}
+            ).addTo(feature_group_ba003aa74c6d30eafd416dd0e8a741cb);
+        
+    
+        var popup_a6385b979ccb0cf5acd6b091bab5aeed = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_a228e8202898ef1d74488d34ba0dd04e = $(`<div id="html_a228e8202898ef1d74488d34ba0dd04e" style="width: 100.0%; height: 100.0%;">Nahal Me'arot<br>Period: Lower Paleolithic (500,000 BP), Middle Paleolithic (250,000-45,000 BP), Natufian culture (15,000 - 11,500 BP)</div>`)[0];
+                popup_a6385b979ccb0cf5acd6b091bab5aeed.setContent(html_a228e8202898ef1d74488d34ba0dd04e);
+            
+        
+
+        marker_d12c0daf5fc702d270252e4dd7ee0df5.bindPopup(popup_a6385b979ccb0cf5acd6b091bab5aeed)
+        ;
+
+        
+    
+    
+            marker_d12c0daf5fc702d270252e4dd7ee0df5.bindTooltip(
+                `<div>
+                     Nahal Me'arot
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_d1e0d79eb1a1b832bc8990744f78bd9c = L.marker(
+                [32.667, 35.017],
+                {
+}
+            ).addTo(feature_group_ba003aa74c6d30eafd416dd0e8a741cb);
+        
+    
+        var popup_3e1842e15db3e2f0886c3eeada91f0c9 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_6447598f206a3661889e8802b1233b07 = $(`<div id="html_6447598f206a3661889e8802b1233b07" style="width: 100.0%; height: 100.0%;">Tabun Cave<br>Period: Lower Paleolithic (500,000 BP), Middle Paleolithic (250,000-45,000 BP)</div>`)[0];
+                popup_3e1842e15db3e2f0886c3eeada91f0c9.setContent(html_6447598f206a3661889e8802b1233b07);
+            
+        
+
+        marker_d1e0d79eb1a1b832bc8990744f78bd9c.bindPopup(popup_3e1842e15db3e2f0886c3eeada91f0c9)
+        ;
+
+        
+    
+    
+            marker_d1e0d79eb1a1b832bc8990744f78bd9c.bindTooltip(
+                `<div>
+                     Tabun Cave
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_b1aef28790efa3225b56005050769fef = L.marker(
+                [32.666, 35.017],
+                {
+}
+            ).addTo(feature_group_ba003aa74c6d30eafd416dd0e8a741cb);
+        
+    
+        var popup_0edc5bd4aa616c44c465c8851ce25483 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_0abe37a41c4e9066d5d3b894226ee8d7 = $(`<div id="html_0abe37a41c4e9066d5d3b894226ee8d7" style="width: 100.0%; height: 100.0%;">Misliya Cave<br>Period: Lower Paleolithic (250,000-160,000 BP)</div>`)[0];
+                popup_0edc5bd4aa616c44c465c8851ce25483.setContent(html_0abe37a41c4e9066d5d3b894226ee8d7);
+            
+        
+
+        marker_b1aef28790efa3225b56005050769fef.bindPopup(popup_0edc5bd4aa616c44c465c8851ce25483)
+        ;
+
+        
+    
+    
+            marker_b1aef28790efa3225b56005050769fef.bindTooltip(
+                `<div>
+                     Misliya Cave
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var feature_group_924adc3a0b02ae73c23a52defd0b0495 = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var marker_ae3bb94214402160bd400c1da56c3359 = L.marker(
+                [32.67, 35.01],
+                {
+}
+            ).addTo(feature_group_924adc3a0b02ae73c23a52defd0b0495);
+        
+    
+        var popup_e5b61e85150a5520cf52ee35fd5227cf = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_bd8443d71cc27d58d3ba525b75c9d38d = $(`<div id="html_bd8443d71cc27d58d3ba525b75c9d38d" style="width: 100.0%; height: 100.0%;">Nahal Me'arot<br>Period: Lower Paleolithic (500,000 BP), Middle Paleolithic (250,000-45,000 BP), Natufian culture (15,000 - 11,500 BP)</div>`)[0];
+                popup_e5b61e85150a5520cf52ee35fd5227cf.setContent(html_bd8443d71cc27d58d3ba525b75c9d38d);
+            
+        
+
+        marker_ae3bb94214402160bd400c1da56c3359.bindPopup(popup_e5b61e85150a5520cf52ee35fd5227cf)
+        ;
+
+        
+    
+    
+            marker_ae3bb94214402160bd400c1da56c3359.bindTooltip(
+                `<div>
+                     Nahal Me'arot
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_4f4b8ff613b39d150a84f6fdc68e8f53 = L.marker(
+                [32.667, 35.017],
+                {
+}
+            ).addTo(feature_group_924adc3a0b02ae73c23a52defd0b0495);
+        
+    
+        var popup_953e19fea9c14473fe2ac1dd3531779c = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_ff063e4b30bfc18403a010e34ca3e0f8 = $(`<div id="html_ff063e4b30bfc18403a010e34ca3e0f8" style="width: 100.0%; height: 100.0%;">Tabun Cave<br>Period: Lower Paleolithic (500,000 BP), Middle Paleolithic (250,000-45,000 BP)</div>`)[0];
+                popup_953e19fea9c14473fe2ac1dd3531779c.setContent(html_ff063e4b30bfc18403a010e34ca3e0f8);
+            
+        
+
+        marker_4f4b8ff613b39d150a84f6fdc68e8f53.bindPopup(popup_953e19fea9c14473fe2ac1dd3531779c)
+        ;
+
+        
+    
+    
+            marker_4f4b8ff613b39d150a84f6fdc68e8f53.bindTooltip(
+                `<div>
+                     Tabun Cave
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_0c36afc72680eada7e76053ea3652f5d = L.marker(
+                [32.669, 35.013],
+                {
+}
+            ).addTo(feature_group_924adc3a0b02ae73c23a52defd0b0495);
+        
+    
+        var popup_2cc5aa771d80920bac2e04d7ae30ceb6 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_5e7d47e97e1f755d257cadc500f60732 = $(`<div id="html_5e7d47e97e1f755d257cadc500f60732" style="width: 100.0%; height: 100.0%;">Skhul Cave<br>Period: Middle Paleolithic (250,000-45,000 BP)</div>`)[0];
+                popup_2cc5aa771d80920bac2e04d7ae30ceb6.setContent(html_5e7d47e97e1f755d257cadc500f60732);
+            
+        
+
+        marker_0c36afc72680eada7e76053ea3652f5d.bindPopup(popup_2cc5aa771d80920bac2e04d7ae30ceb6)
+        ;
+
+        
+    
+    
+            marker_0c36afc72680eada7e76053ea3652f5d.bindTooltip(
+                `<div>
+                     Skhul Cave
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_2cdf218b5a942f4a346eed720ad1678d = L.marker(
+                [32.672, 35.015],
+                {
+}
+            ).addTo(feature_group_924adc3a0b02ae73c23a52defd0b0495);
+        
+    
+        var popup_1937993958cf61aa23190c551a8b851e = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_11554f7254b336c610e36df090df965b = $(`<div id="html_11554f7254b336c610e36df090df965b" style="width: 100.0%; height: 100.0%;">El-Wad Cave<br>Period: Middle Paleolithic (250,000-45,000 BP), Natufian culture (15,000 - 11,500 BP)</div>`)[0];
+                popup_1937993958cf61aa23190c551a8b851e.setContent(html_11554f7254b336c610e36df090df965b);
+            
+        
+
+        marker_2cdf218b5a942f4a346eed720ad1678d.bindPopup(popup_1937993958cf61aa23190c551a8b851e)
+        ;
+
+        
+    
+    
+            marker_2cdf218b5a942f4a346eed720ad1678d.bindTooltip(
+                `<div>
+                     El-Wad Cave
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_7af9cc32f375eee4d5a1827a6552979e = L.marker(
+                [32.694, 35.362],
+                {
+}
+            ).addTo(feature_group_924adc3a0b02ae73c23a52defd0b0495);
+        
+    
+        var popup_4bde5806c3f53b4938831afe82c3427c = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_cb37c8946c1776d4328a9a0c03780498 = $(`<div id="html_cb37c8946c1776d4328a9a0c03780498" style="width: 100.0%; height: 100.0%;">Qafzeh Cave<br>Period: Middle Paleolithic (100,000-90,000 BP)</div>`)[0];
+                popup_4bde5806c3f53b4938831afe82c3427c.setContent(html_cb37c8946c1776d4328a9a0c03780498);
+            
+        
+
+        marker_7af9cc32f375eee4d5a1827a6552979e.bindPopup(popup_4bde5806c3f53b4938831afe82c3427c)
+        ;
+
+        
+    
+    
+            marker_7af9cc32f375eee4d5a1827a6552979e.bindTooltip(
+                `<div>
+                     Qafzeh Cave
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_385450eed5b93b102461ff25e8069f2c = L.marker(
+                [32.596, 34.959],
+                {
+}
+            ).addTo(feature_group_924adc3a0b02ae73c23a52defd0b0495);
+        
+    
+        var popup_c6e53d2fff371518660ab427ae94784b = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_5a78b5195e16ad8a1bf4044825addc1c = $(`<div id="html_5a78b5195e16ad8a1bf4044825addc1c" style="width: 100.0%; height: 100.0%;">Kebara Cave<br>Period: Middle Paleolithic (250,000-45,000 BP), Natufian culture (15,000 - 11,500 BP)</div>`)[0];
+                popup_c6e53d2fff371518660ab427ae94784b.setContent(html_5a78b5195e16ad8a1bf4044825addc1c);
+            
+        
+
+        marker_385450eed5b93b102461ff25e8069f2c.bindPopup(popup_c6e53d2fff371518660ab427ae94784b)
+        ;
+
+        
+    
+    
+            marker_385450eed5b93b102461ff25e8069f2c.bindTooltip(
+                `<div>
+                     Kebara Cave
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_771226bc8aa27ccbab61f0180732ac61 = L.marker(
+                [32.952, 35.511],
+                {
+}
+            ).addTo(feature_group_924adc3a0b02ae73c23a52defd0b0495);
+        
+    
+        var popup_90eea5b8eff1d321e80b70fbd41de734 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_d4fe5cb111dbfa9f39a2055332b63fb5 = $(`<div id="html_d4fe5cb111dbfa9f39a2055332b63fb5" style="width: 100.0%; height: 100.0%;">Amud Cave<br>Period: Middle Paleolithic (250,000-45,000 BP)</div>`)[0];
+                popup_90eea5b8eff1d321e80b70fbd41de734.setContent(html_d4fe5cb111dbfa9f39a2055332b63fb5);
+            
+        
+
+        marker_771226bc8aa27ccbab61f0180732ac61.bindPopup(popup_90eea5b8eff1d321e80b70fbd41de734)
+        ;
+
+        
+    
+    
+            marker_771226bc8aa27ccbab61f0180732ac61.bindTooltip(
+                `<div>
+                     Amud Cave
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_e0b4e9836687a4b4ea70a299bf4bf5a5 = L.marker(
+                [33.016, 35.573],
+                {
+}
+            ).addTo(feature_group_924adc3a0b02ae73c23a52defd0b0495);
+        
+    
+        var popup_102e6a2dd0c2b3791690c287966086e3 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_ed442038430c92b4dbd63de00f323be9 = $(`<div id="html_ed442038430c92b4dbd63de00f323be9" style="width: 100.0%; height: 100.0%;">Zuttiyeh Cave<br>Period: Middle Paleolithic (150,000 BP)</div>`)[0];
+                popup_102e6a2dd0c2b3791690c287966086e3.setContent(html_ed442038430c92b4dbd63de00f323be9);
+            
+        
+
+        marker_e0b4e9836687a4b4ea70a299bf4bf5a5.bindPopup(popup_102e6a2dd0c2b3791690c287966086e3)
+        ;
+
+        
+    
+    
+            marker_e0b4e9836687a4b4ea70a299bf4bf5a5.bindTooltip(
+                `<div>
+                     Zuttiyeh Cave
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_fab99c674e31e85658fe7b57e1050ea8 = L.marker(
+                [33.023, 35.389],
+                {
+}
+            ).addTo(feature_group_924adc3a0b02ae73c23a52defd0b0495);
+        
+    
+        var popup_0dc8a1767b1351732338b3cf189a940d = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_2475d7db584f55ef11013dfc68401412 = $(`<div id="html_2475d7db584f55ef11013dfc68401412" style="width: 100.0%; height: 100.0%;">Hayonim Cave<br>Period: Middle Paleolithic (250,000-45,000 BP), Natufian culture (15,000 - 11,500 BP)</div>`)[0];
+                popup_0dc8a1767b1351732338b3cf189a940d.setContent(html_2475d7db584f55ef11013dfc68401412);
+            
+        
+
+        marker_fab99c674e31e85658fe7b57e1050ea8.bindPopup(popup_0dc8a1767b1351732338b3cf189a940d)
+        ;
+
+        
+    
+    
+            marker_fab99c674e31e85658fe7b57e1050ea8.bindTooltip(
+                `<div>
+                     Hayonim Cave
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_8274e2105e3e3a8c81f621bb837b329a = L.marker(
+                [32.61, 35.094],
+                {
+}
+            ).addTo(feature_group_924adc3a0b02ae73c23a52defd0b0495);
+        
+    
+        var popup_dc676bee13aa42eb5ea5b8eeb1f445cf = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_58d1926a9cab77c2692fafd965ddd709 = $(`<div id="html_58d1926a9cab77c2692fafd965ddd709" style="width: 100.0%; height: 100.0%;">Hefzibah Cave<br>Period: Middle Paleolithic (250,000-45,000 BP)</div>`)[0];
+                popup_dc676bee13aa42eb5ea5b8eeb1f445cf.setContent(html_58d1926a9cab77c2692fafd965ddd709);
+            
+        
+
+        marker_8274e2105e3e3a8c81f621bb837b329a.bindPopup(popup_dc676bee13aa42eb5ea5b8eeb1f445cf)
+        ;
+
+        
+    
+    
+            marker_8274e2105e3e3a8c81f621bb837b329a.bindTooltip(
+                `<div>
+                     Hefzibah Cave
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_9aeaa69c47bafbb927952b5d01e6417f = L.marker(
+                [32.715, 35.007],
+                {
+}
+            ).addTo(feature_group_924adc3a0b02ae73c23a52defd0b0495);
+        
+    
+        var popup_ae0dd66effd3d65007920b90a7e0a6cc = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_9b4f32624428dc55d724a058b719e65f = $(`<div id="html_9b4f32624428dc55d724a058b719e65f" style="width: 100.0%; height: 100.0%;">Malham Cave<br>Period: Middle Paleolithic (250,000-45,000 BP)</div>`)[0];
+                popup_ae0dd66effd3d65007920b90a7e0a6cc.setContent(html_9b4f32624428dc55d724a058b719e65f);
+            
+        
+
+        marker_9aeaa69c47bafbb927952b5d01e6417f.bindPopup(popup_ae0dd66effd3d65007920b90a7e0a6cc)
+        ;
+
+        
+    
+    
+            marker_9aeaa69c47bafbb927952b5d01e6417f.bindTooltip(
+                `<div>
+                     Malham Cave
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_b67e63e192da8e0a57ec3b8a56e7c2ad = L.marker(
+                [32.67, 35.012],
+                {
+}
+            ).addTo(feature_group_924adc3a0b02ae73c23a52defd0b0495);
+        
+    
+        var popup_077148a64e1b27e703dbab26f5dc6ef2 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_3b79ef56dff93fbac67d975be935299e = $(`<div id="html_3b79ef56dff93fbac67d975be935299e" style="width: 100.0%; height: 100.0%;">Es Skhul Cave<br>Period: Middle Paleolithic (250,000-45,000 BP)</div>`)[0];
+                popup_077148a64e1b27e703dbab26f5dc6ef2.setContent(html_3b79ef56dff93fbac67d975be935299e);
+            
+        
+
+        marker_b67e63e192da8e0a57ec3b8a56e7c2ad.bindPopup(popup_077148a64e1b27e703dbab26f5dc6ef2)
+        ;
+
+        
+    
+    
+            marker_b67e63e192da8e0a57ec3b8a56e7c2ad.bindTooltip(
+                `<div>
+                     Es Skhul Cave
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_55f57674964443998c70997945fe8ef4 = L.marker(
+                [32.794, 34.989],
+                {
+}
+            ).addTo(feature_group_924adc3a0b02ae73c23a52defd0b0495);
+        
+    
+        var popup_3c39b895bd30884aae17346e36d8029d = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_b216a390859a8d6335df0fc8fbee85db = $(`<div id="html_b216a390859a8d6335df0fc8fbee85db" style="width: 100.0%; height: 100.0%;">Geula Cave<br>Period: Middle Paleolithic (250,000-45,000 BP)</div>`)[0];
+                popup_3c39b895bd30884aae17346e36d8029d.setContent(html_b216a390859a8d6335df0fc8fbee85db);
+            
+        
+
+        marker_55f57674964443998c70997945fe8ef4.bindPopup(popup_3c39b895bd30884aae17346e36d8029d)
+        ;
+
+        
+    
+    
+            marker_55f57674964443998c70997945fe8ef4.bindTooltip(
+                `<div>
+                     Geula Cave
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var feature_group_462ef21f1cac08ce75110ef706432188 = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var marker_31c9174b0b462099deeb075dd4366d1c = L.marker(
+                [32.987, 35.268],
+                {
+}
+            ).addTo(feature_group_462ef21f1cac08ce75110ef706432188);
+        
+    
+        var popup_cdc6857c8cc2c2c135d4b82e058c2434 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_08c95c43387078716a1a06e8646bc652 = $(`<div id="html_08c95c43387078716a1a06e8646bc652" style="width: 100.0%; height: 100.0%;">Manot Cave<br>Period: Upper Paleolithic (40,000 BP)</div>`)[0];
+                popup_cdc6857c8cc2c2c135d4b82e058c2434.setContent(html_08c95c43387078716a1a06e8646bc652);
+            
+        
+
+        marker_31c9174b0b462099deeb075dd4366d1c.bindPopup(popup_cdc6857c8cc2c2c135d4b82e058c2434)
+        ;
+
+        
+    
+    
+            marker_31c9174b0b462099deeb075dd4366d1c.bindTooltip(
+                `<div>
+                     Manot Cave
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_9fd595046b84410bd1f787e0f2924d1b = L.marker(
+                [32.728, 34.966],
+                {
+}
+            ).addTo(feature_group_462ef21f1cac08ce75110ef706432188);
+        
+    
+        var popup_8f8d3773402598a87217cac4ad4fc8ac = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_6e4339c3c11f57c6855561b6d0955920 = $(`<div id="html_6e4339c3c11f57c6855561b6d0955920" style="width: 100.0%; height: 100.0%;">Sefunim Cave<br>Period: Upper Paleolithic (40,000 BP)</div>`)[0];
+                popup_8f8d3773402598a87217cac4ad4fc8ac.setContent(html_6e4339c3c11f57c6855561b6d0955920);
+            
+        
+
+        marker_9fd595046b84410bd1f787e0f2924d1b.bindPopup(popup_8f8d3773402598a87217cac4ad4fc8ac)
+        ;
+
+        
+    
+    
+            marker_9fd595046b84410bd1f787e0f2924d1b.bindTooltip(
+                `<div>
+                     Sefunim Cave
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_eb2690c50bb95b93c8b0ef0f881fb6c8 = L.marker(
+                [32.625, 35.066],
+                {
+}
+            ).addTo(feature_group_462ef21f1cac08ce75110ef706432188);
+        
+    
+        var popup_c18b9dd30f7f4ad553793465be531170 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_f2073df7f723a5a3252cca3202c1ebc7 = $(`<div id="html_f2073df7f723a5a3252cca3202c1ebc7" style="width: 100.0%; height: 100.0%;">Meged Cave<br>Period: Upper Paleolithic (30,000 BP)</div>`)[0];
+                popup_c18b9dd30f7f4ad553793465be531170.setContent(html_f2073df7f723a5a3252cca3202c1ebc7);
+            
+        
+
+        marker_eb2690c50bb95b93c8b0ef0f881fb6c8.bindPopup(popup_c18b9dd30f7f4ad553793465be531170)
+        ;
+
+        
+    
+    
+            marker_eb2690c50bb95b93c8b0ef0f881fb6c8.bindTooltip(
+                `<div>
+                     Meged Cave
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_863dd7cc5de38cabd1bf9bc158bce5d3 = L.marker(
+                [32.724, 35.062],
+                {
+}
+            ).addTo(feature_group_462ef21f1cac08ce75110ef706432188);
+        
+    
+        var popup_38e262abc16d7693b45311d1d44284c7 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_3f5bdc73c4a7705017ed952e3b463382 = $(`<div id="html_3f5bdc73c4a7705017ed952e3b463382" style="width: 100.0%; height: 100.0%;">Jamila Cave<br>Period: Upper Paleolithic (25,000 BP)</div>`)[0];
+                popup_38e262abc16d7693b45311d1d44284c7.setContent(html_3f5bdc73c4a7705017ed952e3b463382);
+            
+        
+
+        marker_863dd7cc5de38cabd1bf9bc158bce5d3.bindPopup(popup_38e262abc16d7693b45311d1d44284c7)
+        ;
+
+        
+    
+    
+            marker_863dd7cc5de38cabd1bf9bc158bce5d3.bindTooltip(
+                `<div>
+                     Jamila Cave
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_37fbf67e62688a84e60fa7f92bb83ce0 = L.marker(
+                [32.718, 34.967],
+                {
+}
+            ).addTo(feature_group_462ef21f1cac08ce75110ef706432188);
+        
+    
+        var popup_0213d8d23fedaf778a9ac984648534a0 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_69d830cf241dc5adba31e4962a1cec65 = $(`<div id="html_69d830cf241dc5adba31e4962a1cec65" style="width: 100.0%; height: 100.0%;">Carmel Cave<br>Period: Upper Paleolithic (30,000 BP)</div>`)[0];
+                popup_0213d8d23fedaf778a9ac984648534a0.setContent(html_69d830cf241dc5adba31e4962a1cec65);
+            
+        
+
+        marker_37fbf67e62688a84e60fa7f92bb83ce0.bindPopup(popup_0213d8d23fedaf778a9ac984648534a0)
+        ;
+
+        
+    
+    
+            marker_37fbf67e62688a84e60fa7f92bb83ce0.bindTooltip(
+                `<div>
+                     Carmel Cave
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var feature_group_4dadd291392e0d101de00eaac2582132 = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var marker_e6c4829254ef8af2f33ccd5a9d218cad = L.marker(
+                [32.67, 35.01],
+                {
+}
+            ).addTo(feature_group_4dadd291392e0d101de00eaac2582132);
+        
+    
+        var popup_b0223fe50b026201e310dd2b1a31a16e = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_4dc8771dc0b4a95bab73e4c8096cebc4 = $(`<div id="html_4dc8771dc0b4a95bab73e4c8096cebc4" style="width: 100.0%; height: 100.0%;">Nahal Me'arot<br>Period: Lower Paleolithic (500,000 BP), Middle Paleolithic (250,000-45,000 BP), Natufian culture (15,000 - 11,500 BP)</div>`)[0];
+                popup_b0223fe50b026201e310dd2b1a31a16e.setContent(html_4dc8771dc0b4a95bab73e4c8096cebc4);
+            
+        
+
+        marker_e6c4829254ef8af2f33ccd5a9d218cad.bindPopup(popup_b0223fe50b026201e310dd2b1a31a16e)
+        ;
+
+        
+    
+    
+            marker_e6c4829254ef8af2f33ccd5a9d218cad.bindTooltip(
+                `<div>
+                     Nahal Me'arot
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_d40d0f300403d37f24d7a86fccf1306b = L.marker(
+                [32.672, 35.015],
+                {
+}
+            ).addTo(feature_group_4dadd291392e0d101de00eaac2582132);
+        
+    
+        var popup_9d1dc5b73a64d91c2131c30dd7e1404d = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_d537aad45d9269240529dee8fac93af8 = $(`<div id="html_d537aad45d9269240529dee8fac93af8" style="width: 100.0%; height: 100.0%;">El-Wad Cave<br>Period: Middle Paleolithic (250,000-45,000 BP), Natufian culture (15,000 - 11,500 BP)</div>`)[0];
+                popup_9d1dc5b73a64d91c2131c30dd7e1404d.setContent(html_d537aad45d9269240529dee8fac93af8);
+            
+        
+
+        marker_d40d0f300403d37f24d7a86fccf1306b.bindPopup(popup_9d1dc5b73a64d91c2131c30dd7e1404d)
+        ;
+
+        
+    
+    
+            marker_d40d0f300403d37f24d7a86fccf1306b.bindTooltip(
+                `<div>
+                     El-Wad Cave
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_31802012d3536c519b133898a8a8e4dd = L.marker(
+                [32.596, 34.959],
+                {
+}
+            ).addTo(feature_group_4dadd291392e0d101de00eaac2582132);
+        
+    
+        var popup_e78a933fc5ee285ece8c5d3dd0f210c5 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_ad0af60d51115182c785c5e6ea469a9f = $(`<div id="html_ad0af60d51115182c785c5e6ea469a9f" style="width: 100.0%; height: 100.0%;">Kebara Cave<br>Period: Middle Paleolithic (250,000-45,000 BP), Natufian culture (15,000 - 11,500 BP)</div>`)[0];
+                popup_e78a933fc5ee285ece8c5d3dd0f210c5.setContent(html_ad0af60d51115182c785c5e6ea469a9f);
+            
+        
+
+        marker_31802012d3536c519b133898a8a8e4dd.bindPopup(popup_e78a933fc5ee285ece8c5d3dd0f210c5)
+        ;
+
+        
+    
+    
+            marker_31802012d3536c519b133898a8a8e4dd.bindTooltip(
+                `<div>
+                     Kebara Cave
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_a4e6165e6cb5822ee912bee04072fa92 = L.marker(
+                [33.023, 35.389],
+                {
+}
+            ).addTo(feature_group_4dadd291392e0d101de00eaac2582132);
+        
+    
+        var popup_bb445cdae081d16253d39c4d32507ba2 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_3cccea4c99feeda80a32b6e5c57ca9f3 = $(`<div id="html_3cccea4c99feeda80a32b6e5c57ca9f3" style="width: 100.0%; height: 100.0%;">Hayonim Cave<br>Period: Middle Paleolithic (250,000-45,000 BP), Natufian culture (15,000 - 11,500 BP)</div>`)[0];
+                popup_bb445cdae081d16253d39c4d32507ba2.setContent(html_3cccea4c99feeda80a32b6e5c57ca9f3);
+            
+        
+
+        marker_a4e6165e6cb5822ee912bee04072fa92.bindPopup(popup_bb445cdae081d16253d39c4d32507ba2)
+        ;
+
+        
+    
+    
+            marker_a4e6165e6cb5822ee912bee04072fa92.bindTooltip(
+                `<div>
+                     Hayonim Cave
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_16c0fa75432a61d896216cc0ae590aec = L.marker(
+                [32.919, 35.281],
+                {
+}
+            ).addTo(feature_group_4dadd291392e0d101de00eaac2582132);
+        
+    
+        var popup_2213d9c72a56a222666cede31aa14be9 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_1a67a3a7b15344d8d928dffe40222023 = $(`<div id="html_1a67a3a7b15344d8d928dffe40222023" style="width: 100.0%; height: 100.0%;">Hilazon Tachtit Cave<br>Period: Natufian culture (15,000 - 11,500 BP)</div>`)[0];
+                popup_2213d9c72a56a222666cede31aa14be9.setContent(html_1a67a3a7b15344d8d928dffe40222023);
+            
+        
+
+        marker_16c0fa75432a61d896216cc0ae590aec.bindPopup(popup_2213d9c72a56a222666cede31aa14be9)
+        ;
+
+        
+    
+    
+            marker_16c0fa75432a61d896216cc0ae590aec.bindTooltip(
+                `<div>
+                     Hilazon Tachtit Cave
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_8dab82095bae0bdf80fd3e7697b9ca9d = L.marker(
+                [32.7, 35.05],
+                {
+}
+            ).addTo(feature_group_4dadd291392e0d101de00eaac2582132);
+        
+    
+        var popup_00e42bf4c5dd48458191247742805d78 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_1dbca52fae24750a328202ed1153a1d2 = $(`<div id="html_1dbca52fae24750a328202ed1153a1d2" style="width: 100.0%; height: 100.0%;">Raqefet Cave<br>Period: Natufian culture (15,000 - 11,500 BP)</div>`)[0];
+                popup_00e42bf4c5dd48458191247742805d78.setContent(html_1dbca52fae24750a328202ed1153a1d2);
+            
+        
+
+        marker_8dab82095bae0bdf80fd3e7697b9ca9d.bindPopup(popup_00e42bf4c5dd48458191247742805d78)
+        ;
+
+        
+    
+    
+            marker_8dab82095bae0bdf80fd3e7697b9ca9d.bindTooltip(
+                `<div>
+                     Raqefet Cave
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var layer_control_2484c9909262c166c9a7f1b660fab249_layers = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_3b04df9d98896f93723fde87ef8cc33e,
+                },
+                overlays :  {
+                    "All Caves" : feature_group_ecb57bf04992930dcf6b620d903299cc,
+                    "Lower Paleolithic" : feature_group_ba003aa74c6d30eafd416dd0e8a741cb,
+                    "Middle Paleolithic" : feature_group_924adc3a0b02ae73c23a52defd0b0495,
+                    "Upper Paleolithic" : feature_group_462ef21f1cac08ce75110ef706432188,
+                    "Natufian culture" : feature_group_4dadd291392e0d101de00eaac2582132,
+                },
+            };
+            let layer_control_2484c9909262c166c9a7f1b660fab249 = L.control.layers(
+                layer_control_2484c9909262c166c9a7f1b660fab249_layers.base_layers,
+                layer_control_2484c9909262c166c9a7f1b660fab249_layers.overlays,
+                {
+  "position": "bottomright",
+  "collapsed": false,
+  "autoZIndex": true,
+  "overlays": {
+  "All Caves": feature_group_ecb57bf04992930dcf6b620d903299cc,
+  "Lower Paleolithic": feature_group_ba003aa74c6d30eafd416dd0e8a741cb,
+  "Middle Paleolithic": feature_group_924adc3a0b02ae73c23a52defd0b0495,
+  "Upper Paleolithic": feature_group_462ef21f1cac08ce75110ef706432188,
+  "Natufian culture": feature_group_4dadd291392e0d101de00eaac2582132,
+},
+}
+            ).addTo(map_318e3ac8ad41fc19a21d2b9a3dee2229);
+
+        
+    
+            map_318e3ac8ad41fc19a21d2b9a3dee2229.fitBounds(
+                [[32.67, 35.01], [32.667, 35.017], [32.669, 35.013], [32.672, 35.015], [32.666, 35.017], [32.694, 35.362], [32.596, 34.959], [32.987, 35.268], [32.952, 35.511], [33.016, 35.573], [33.023, 35.389], [32.919, 35.281], [32.7, 35.05], [32.728, 34.966], [32.625, 35.066], [32.724, 35.062], [32.61, 35.094], [32.718, 34.967], [32.715, 35.007], [32.67, 35.012], [32.794, 34.989]],
+                {"padding": [0.2, 0.2]}
+            );
+        
+</script>
+</html>
