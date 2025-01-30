@@ -162,7 +162,8 @@ caves = [
         "lat": 32.794,
         "lon": 34.989,
         "period": "Middle Paleolithic (250,000-45,000 BP)",
-         "wiki_url":"https://en.wikipedia.org/wiki/Nahal_Me%27arot_Nature_Reserve#Other_caves"
+        #  "wiki_url":"https://en.wikipedia.org/wiki/Nahal_Me%27arot_Nature_Reserve#Other_caves"
+        "wiki_url":"./articles/geula.html"
     }
 ]
 
