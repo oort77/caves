@@ -1,16 +1,15 @@
 @charset "UTF-8";
 
-/* Add page margins */
 body {
     max-width: 800px;
-    /* Control text width */
     margin: 40px auto;
-    /* 40px vertical, auto horizontal centers content */
     padding: 0 20px;
-    /* 20px side padding */
+    font-family: Georgia, Cambria, serif;
+    font-weight: 200;
+    background: #fff;
+    color: #373D49;
 }
 
-/* Vertical spacing */
 h1 {
     margin: 2rem 0 1rem;
 }
@@ -23,18 +22,6 @@ p {
     margin: 0 0 1.2rem;
 }
 
-ul,
-ol {
-    margin: 0 0 1.5rem;
-}
-
-/* Existing styles with spacing adjustments */
-html,
-body {
-    font-family: Georgia, Cambria, serif;
-    background: #fff;
-    color: #373D49
-}
 
 h1,
 h2,
@@ -43,22 +30,22 @@ h4,
 h5,
 h6 {
     font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-weight: 600
+    font-weight: 320;
 }
 
 a {
     color: #2596be;
-    text-decoration: none
+    text-decoration: none;
 }
 
 a:hover,
 a:focus {
-    color: #e28743
+    color: #e28743;
 }
 
 li {
     font-feature-settings: 'kern' 1, 'onum' 1, 'liga' 1;
-    margin-left: 1rem
+    margin-left: 1rem;
 }
 
 hr {
@@ -68,11 +55,11 @@ hr {
 }
 
 .footnote-ref {
-    margin-left: 2px
+    margin-left: 2px;
 }
 
 .footnote-backref {
-    text-decoration: none
+    text-decoration: none;
 }
 
 .footnotes-list {
@@ -81,5 +68,5 @@ hr {
 }
 
 .footnotes-list p {
-    display: inline
+    display: inline;
 }

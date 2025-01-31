@@ -5,6 +5,8 @@ __pycache__/
 
 # Misc
 .DS_Store
+articles/test.html
+articles/geula.md
 
 # C extensions
 *.so
